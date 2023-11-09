@@ -51,3 +51,5 @@ As a result the digit state of the corresponding segments can be represented lik
     "1111111",  # 8
     "1111011",  # 9
 ```
+
+Added variables for the display characters and spacing to make it easier to change.

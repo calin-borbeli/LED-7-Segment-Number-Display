@@ -36,32 +36,42 @@ digit_state = [
 # Define the funtion to display the digits:
 def led_display(digits):
     global digit_state
+    # Here you can change the horizontal and vertical display characters
+    hc = "-"
+    vc = "|"
+
+    # Here you can chamge the horizontal and vertical character multiplier
+    hm = 3
+    vm = 1
+    # Here you can chamge the gap spacing between digits
+    gap = 2
+
     # Each digit will be displayed on 5 rows
     # Create a list of 5 empty rows
     rows = ["" for row in range(5)]
     # Run through each row of the 5 LED display rows
     for digit in digits:  # Run through each digit
         # Create an array of empty segments for each row
-        segments = [[" ", "   ", " "] for row in range(5)]
+        segments = [[vm * " ", hm * " ", vm * " "] for row in range(5)]
         d = int(digit)
         # Check the digit state and update the segment state
         if digit_state[d][0] == "1":
-            segments[0][1] = "---"
+            segments[0][1] = hm * hc
         if digit_state[d][1] == "1":
-            segments[1][0] = "|"
+            segments[1][0] = vm * vc
         if digit_state[d][2] == "1":
-            segments[1][2] = "|"
+            segments[1][2] = vm * vc
         if digit_state[d][3] == "1":
-            segments[2][1] = "---"
+            segments[2][1] = hm * hc
         if digit_state[d][4] == "1":
-            segments[3][0] = "|"
+            segments[3][0] = vm * vc
         if digit_state[d][5] == "1":
-            segments[3][2] = "|"
+            segments[3][2] = vm * vc
         if digit_state[d][6] == "1":
-            segments[4][1] = "---"
+            segments[4][1] = hm * hc
         # Join the segments for each individual row
         for row in range(5):
-            rows[row] += "  " + "".join(segments[row])
+            rows[row] += gap * " " + "".join(segments[row])
     # Print individual rows
     for row in rows:
         print(row)

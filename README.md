@@ -16,7 +16,7 @@ This is an example for 1234567890:
     |  |          |      |      |  |   |      |  |   |      |  |   |  
         ---    ---           ---    ---           ---    ---    ---   
 
-Define the 7 LED segments on/off state for each digit in a list
+I defined the 7 LED segments on/off state for each digit in a list
 where 0 is a segment turned off and 1 is turned on.
 
 The traditional order of the segments is going clockwise from the top

@@ -28,7 +28,7 @@ as it makes sense in a physical LED. Say the a,b,c,d,e,f,g segments would like s
  e   c
    d
 ```
-However, the order I use is from the top to bottom and left to right
+However, the order I used is from the top to bottom and left to right
 as it makes more sense for programming. Say a,b,c,d,e,f,g like so:
 ```
    a
@@ -37,9 +37,9 @@ as it makes more sense for programming. Say a,b,c,d,e,f,g like so:
  e   f
    g
 ```
-As a result the digit state can be represented like so:
+As a result the digit state of the corresponding segments can be represented like so:
 ```
-     abcdefg    # segments
+     abcdefg    # corresponding segments
     "1110111",  # 0
     "0010010",  # 1
     "1011101",  # 2

@@ -37,7 +37,7 @@ as it makes more sense for programming. Say a,b,c,d,e,f,g like so:
 
 As a result the digit state can be represented like so:
 
-```digit_state = [
+```digit_state = 
     "1110111",  # 0
     "0010010",  # 1
     "1011101",  # 2
@@ -48,4 +48,4 @@ As a result the digit state can be represented like so:
     "1010010",  # 7
     "1111111",  # 8
     "1111011",  # 9
-]```
+```

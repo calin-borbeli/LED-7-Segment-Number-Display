@@ -21,6 +21,7 @@ where 0 is a segment turned off and 1 is turned on.
 
 The traditional order of the segments is going clockwise from the top
 as it makes sense in a physical LED. Say a,b,c,d,e,f,g like so:
+
    a
  f   b
    g
@@ -29,6 +30,7 @@ as it makes sense in a physical LED. Say a,b,c,d,e,f,g like so:
 
 However, the order I use is from the top to bottom and left to right
 as it makes more sense for programming. Say a,b,c,d,e,f,g like so:
+
    a
  b   c
    d

@@ -16,11 +16,11 @@ This is an example for 1234567890:
     |  |          |      |      |  |   |      |  |   |      |  |   |  
         ---    ---           ---    ---           ---    ---    ---   
 
-I defined the 7 LED segments on/off state for each digit in a list
+I defined the 7 LED segments (a,b,c,d,e,f,g) on/off state for each digit in a list
 where 0 is a segment turned off and 1 is turned on.
 
 The traditional order of the segments is going clockwise from the top
-as it makes sense in a physical LED. Say a,b,c,d,e,f,g like so:
+as it makes sense in a physical LED. Say the a,b,c,d,e,f,g segments would like so:
 ```
    a
  f   b
@@ -39,6 +39,7 @@ as it makes more sense for programming. Say a,b,c,d,e,f,g like so:
 ```
 As a result the digit state can be represented like so:
 ```
+     abcdefg    # segments
     "1110111",  # 0
     "0010010",  # 1
     "1011101",  # 2

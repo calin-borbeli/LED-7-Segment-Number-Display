@@ -51,3 +51,4 @@ As a result the digit state of the corresponding segments can be represented lik
     "1111111",  # 8
     "1111011",  # 9
 ```
+The program creates an empty array/matrix of 5 rows and 3 columns for each digit and uses the digits state list to update the state for the segments based on the digit.

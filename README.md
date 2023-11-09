@@ -4,8 +4,8 @@ A program which is able to simulate the work of a seven-display device, although
 
 Each digit is constructed from 7 segments.
 
-The segments can be constructed from different characters and they can be changes in the source code.
-Personally, I think that the best is to have the horizontal segments (top, middle and bottom) as 3 dashes and the vertical segments as a pipe.
+The segments can be constructed from different characters and they can be changed in the source code.
+Personally, I think that the best is to have the horizontal segments (top, middle and bottom) as 3 dashes and the vertical segments as the pipe character.
 
 This is an example for 1234567890:
 

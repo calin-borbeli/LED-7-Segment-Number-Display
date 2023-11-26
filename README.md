@@ -1,5 +1,4 @@
-# LED-7-Segment-Number-Display-Python-Essentials-2-Lab
-
+# LED-7-Segment-Number-Display
 A program which is able to simulate the work of a seven-display device, although we're going to use single LEDs instead of segments.
 
 Each digit is constructed from 7 segments.
